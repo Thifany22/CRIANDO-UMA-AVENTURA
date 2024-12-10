@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <title>O Mistério da Câmara Secreta</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="Ouvindo Rumores">
+            <p>Você é um aluno de Hogwarts e ouviu rumores de que a Câmara Secreta foi reaberta. Dizem que uma criatura
+                assustadora e antiga agora ronda a escola. Determinado a desvendar o mistério antes que algo terrível
+                aconteça, você embarca em uma jornada perigosa pelos corredores sombrios de Hogwarts. Cada escolha
+                poderá aproximá-lo da verdade ou levá-lo ao fracasso. Escolha com sabedoria. Boa sorte!
+                <button class="btn-proximo" data-proximo="1">Biblioteca de Hogwarts</button>
+                <button class="btn-proximo" data-proximo="2">Banheiro da Murta que Geme</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.jpg" alt="Biblioteca de Hogwarts">
+            <p>A biblioteca antiga guarda muitos segredos nas prateleiras empoeiradas. Aqui, talvez você encontre o que
+                precisa para desvendar o mistério da Câmara Secreta. Mas será que algo neste lugar revela a verdade
+                sobre o que está escondido na escola?
+                <button class="btn-proximo" data-proximo="3">Procurar por livros antigos sobre a Câmara Secreta</button>
+                <button class="btn-proximo" data-proximo="4">Ignorar os livros e sair da biblioteca</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src= "img/cenario-passo2.jpg" alt="Banheiro da Murta que Geme">
+            <p>O banheiro abandonado de Hogwarts esconde mais do que aparenta. O espírito da Murta que Geme é conhecido
+                por guardar segredos valiosos. Talvez ela saiba mais sobre a Câmara Secreta do que qualquer um… mas
+                confiar nela é arriscado.
+                <button class="btn-proximo" data-proximo="5">Entrar e conversar com a Murta, que conhece segredos sobre
+                    a Câmara.</button>
+                <button class="btn-proximo" data-proximo="6">Ignorar o banheiro e procurar em outra área. </button>
+            </p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se aprofunda nas prateleiras de livros empoeirados, buscando por qualquer menção à Câmara. Após
+                alguns minutos, encontra um livro com um aviso sombrio sobre o Basilisco, a serpente que guarda o local.
+                O livro também fala de uma entrada secreta oculta em Hogwarts.
+                <button class="btn-proximo" data-proximo="7">Descobrir a Senha </button>
+            </p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide não perder tempo com os livros e deixa a biblioteca. Contudo, sem pistas, sua busca pelo
+                mistério da Câmara Secreta chega ao fim antes mesmo de começar.</p>
+        </div>
+        <div class="passo" id="passo-5"> 
+            <p>Você encontra Murta que Geme no banheiro. Com seu jeito misterioso e melancólico, ela comenta que já viu
+                a entrada da Câmara, mas diz que é preciso uma senha especial para abrir a porta. Ela lhe lança um olhar
+                intrigante, como se soubesse algo que ninguém mais sabe.
+                <button class="btn-proximo" data-proximo="7">Descobrir a Senha</button>
+                <button class="btn-proximo" data-proximo="11">Confronto Final</button>
+
+            </p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>O banheiro escuro e sombrio parece desconfortável, então você decide buscar respostas em outro lugar. Mas
+                sem a ajuda de Murta, você acaba se perdendo pelos corredores de Hogwarts, sem encontrar novas pistas.
+                <button class="btn-proximo" data-proximo="8">Ignorar o banheiro e procurar em outra área. </button>
+            </p>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Cada porta tem sua chave, e para a Câmara Secreta, a senha é uma língua antiga e sombria. Entre as aulas
+                e corredores de Hogwarts, alguém pode saber como desbloquear essa entrada, mas conseguir essa informação
+                não será fácil.
+                <button class="btn-proximo" data-proximo="9">Perguntar ao professor de Defesa Contra as Artes das Trevas
+                    sobre senhas antigas. </button>
+                <button class="btn-proximo" data-proximo="10">Tentar adivinhar a senha </button>
+            </p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você decide tentar adivinhar a senha. Mas sem o conhecimento da língua parsel, nenhuma tentativa
+                funciona. Frustrado, percebe que a entrada não cederá a suas tentativas, e sua missão fracassa. O jogo
+                termina aqui.
+                <button class="btn-proximo" data-proximo="9">Perguntar ao professor de Defesa Contra as Artes das Trevas
+                    sobre senhas antigas.</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo3.jpg" alt="Conversa com o professor Lupin">
+            <p>Com uma justificativa cuidadosa, você se aproxima do professor de Defesa Contra as Artes das Trevas e
+                pergunta sobre senhas antigas. Ele parece hesitar, mas finalmente revela que a senha da Câmara é em uma
+                língua proibida, conhecida como parsel, a língua das cobras.
+                <button class="btn-proximo" data-proximo="5">Descobrir sobre entrada da Câmara Secreta</button>
+                <button class="btn-proximo" data-proximo="10">Entrada para a Câmara Secreta</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo4.jpg" alt="Porta da Câmara Secreta">
+            <p>Depois de muitos desafios, você finalmente está diante da entrada da Câmara. O ar parece pesado, e um
+                calafrio percorre seu corpo. Resta apenas uma escolha: abrir a porta e encarar o que estiver lá dentro,
+                ou desistir e sair enquanto ainda pode.
+                <button class="btn-proximo" data-proximo="12">Usar a senha em parsel para abrir a porta.</button>
+                <button class="btn-proximo" data-proximo="13">Desistir e voltar para o dormitório. </button>
+            </p>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo5.jpg" alt="Confronto com Basilisco">
+            <p>Nas profundezas da Câmara Secreta, o maior desafio o espera. O Basilisco, uma serpente colossal de olhar
+                mortal, está à espreita. Com inteligência e coragem, você pode encontrar uma forma de enfrentar a
+                criatura e encerrar o mistério de uma vez por todas.
+                <button class="btn-proximo" data-proximo="14">Usar um espelho para ver o Basilisco indiretamente e
+                    evitar seu olhar mortal.</button>
+                <button class="btn-proximo" data-proximo="15">Enfrentar o Basilisco diretamente.</button>
+            </p>
+
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Com a senha em parsel, você sussurra as palavras e sente uma vibração misteriosa ao seu redor.
+                Lentamente, a porta range e se abre, revelando um corredor sombrio e sinuoso que leva para dentro da
+                Câmara Secreta.
+                <button class="btn-proximo" data-proximo="11">Confronto Final com Basilisco</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Você sente um calafrio e, dominado pelo medo, decide desistir da missão. Voltando para o dormitório,
+                abandona o mistério da Câmara e tudo que ela esconde.</p>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Ao avistar o reflexo do Basilisco, você percebe o perigo de seu olhar mortal. Usando o espelho para
+                guiá-lo, você consegue evitar seu olhar direto e, com uma combinação de coragem e magia, derrota a
+                terrível criatura. O mistério da Câmara foi resolvido e você sai vitorioso!
+                <button class="btn-proximo" data-proximo="16">Vitória</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Em um impulso de coragem, você encara o Basilisco diretamente. No entanto, o olhar mortal da criatura é
+                poderoso demais, e a escuridão rapidamente toma conta.
+                <button class="btn-proximo" data-proximo="17">Derrota</button>
+            </p>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Parabéns! Com coragem e inteligência, você desvendou os segredos da Câmara Secreta e derrotou o temido
+                Basilisco, salvando Hogwarts do perigo. Ao sair da Câmara, você sente a admiração dos corredores antigos
+                e um profundo respeito por ter enfrentado e vencido uma criatura lendária. Hogwarts estará segura por
+                mais uma geração graças à sua bravura. Seu nome será lembrado como aquele que ousou explorar os
+                mistérios da escola e triunfou!</p>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Infelizmente, sua busca pela Câmara Secreta termina aqui. Apesar de sua coragem, a escuridão dos
+                corredores e o poder do Basilisco se mostraram fatais. Hogwarts ainda guarda seus mistérios, e o perigo
+                permanece à espreita. Quem sabe, em outra oportunidade, alguém concluirá o que você começou. Mesmo
+                assim, sua tentativa de desvendar o segredo da Câmara Secreta será lembrada como uma história de
+                determinação e bravura, mesmo diante da derrota.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
